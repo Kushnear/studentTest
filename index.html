@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Кото Фото</h1>
+        <section>
+            <h2>Фотографии котов</h2>
+            <p>Посмотрите больше <a target="_blank" href="#">фотографий котов</a> в нашей галерее.</p>
+            <!--  ctrl + /  - сочетание клавиш для создания комментария -->
+            <!-- ctrl + s  - сохранить файл -->
+            <a href="#">больше фото котов здесь</a>
+            <a href="#" target="_blank"><img src="images/cat-1.jpeg" alt="крутой котик в очках"></a>
+        </section>
+        <section>
+            <h2>Кошачьи списки</h2>
+            <h3>Что любят кошки</h3>
+            <ul>
+                <li>кушать</li>
+                <li>спать</li>
+                <li>охотиться</li>
+            </ul>
+            <figure>
+                <img src="images/hunting.jpeg" alt="кошка охотится на грызуна">
+                <figcaption>кошки любят охоту</figcaption>
+            </figure>
+            <h3>Что не любят кошки</h3>
+            <ol>
+                <li>плавать</li>
+                <li>собак</li>
+                <li>шум пылесоса</li>
+            </ol>
+        </section>
+        <section>
+            <table border="1" cellspacing="0" cellpadding="10">
+                <caption>Наши коты</caption>
+                <thead>
+                    <tr>
+                        <th>Имя</th>
+                        <th>Порода</th>
+                        <th>Окрас</th>
+                        <th>Характер</th>
+                        <th>Возраст</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Барсик</td>
+                        <td>Британский короткошерстный</td>
+                        <td>Черепаховый</td>
+                        <td>Игривый</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Мурзик</td>
+                        <td>Шотландская Вислоухая</td>
+                        <td>Серебристый</td>
+                        <td>Спокойный</td>
+                        <td>2</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4"></td>
+                        <td>5</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section>
+            <form>
+                <label for="name">Введите имя</label>
+                <input id='name' type="text" required placeholder="Иван">
+                <br>
+                <label for="email">Введите электронную почту</label>
+                <input id="email" type="email" required>
+                <br>
+                <label for="message">оставьте комментарий</label>
+                <textarea id="message" placeholder="очень круто!"></textarea>
+
+                <fieldset>
+                    <legend>Вам понравился наш сайт?</legend>
+                    <label for="yes">да</label>
+                    <input name="like" id="yes" type="radio">
+                    <label for="no">нет</label>
+                    <input name="like" id="no" type="radio">
+                </fieldset>
+                <fieldset>
+                    <legend>Какие у вас питомцы?</legend>
+                    <label for="dog">собака</label>
+                    <input name="pets" id="dog" type="checkbox">
+                    <label for="cat">кошка</label>
+                    <input name="pets" id="cat" type="checkbox">
+                    <label for="bird">птичка</label>
+                    <input name="pets" id="bird" type="checkbox">
+                </fieldset>
+                <button>отправить</button>
+            </form>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+    </main>
+</body>
+</html>
